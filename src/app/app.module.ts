@@ -42,10 +42,11 @@ import { LoginModule } from './autenticacao/login/login.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     MatButtonModule,
     LoginModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
