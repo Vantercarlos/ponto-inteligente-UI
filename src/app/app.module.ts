@@ -34,6 +34,8 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatDialogRef } from '@angular/material/dialog';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 
+import { LoginModule } from './autenticacao/login/login.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -42,6 +44,7 @@ import { MAT_DIALOG_DATA } from '@angular/material/dialog';
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
+    LoginModule,
     BrowserAnimationsModule
   ],
   providers: [],
